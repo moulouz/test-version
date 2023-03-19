@@ -1,0 +1,28 @@
+.about{
+    padding-top: 150px;
+}
+.about-details{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.about-details .image {
+    width: 80%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.about-details .image img {
+    width: 100%;
+}
+
+.about-details   h3{    
+    margin: auto;
+    margin-top: 20%;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.about p {
+    width: 60%;
+    text-align: center;
+    margin: 90px auto;
+}
